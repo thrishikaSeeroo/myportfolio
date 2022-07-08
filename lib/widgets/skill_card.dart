@@ -37,7 +37,7 @@ class SkillCard extends StatelessWidget {
                           color: CustomColors.primary,
                           fontSize: 16)),
                   const SizedBox(height: 8),
-                  Text("Freelancing",
+                  Text("App development",
                       style: GoogleFonts.getFont('Delius',
                           color: Colors.white, fontSize: 15)),
                   const SizedBox(height: 10),

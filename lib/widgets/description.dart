@@ -46,7 +46,7 @@ class Description extends StatelessWidget {
               pause: const Duration(seconds: 2),
               animatedTexts: [
                 TyperAnimatedText(
-                    "I'm developing mobile,frontend and backend applications",
+                    "I'm developing mobile applications",
                     textAlign: isVertical ? TextAlign.center : TextAlign.start,
                     textStyle: GoogleFonts.getFont('Delius',
                         color: CustomColors.gray,
@@ -56,7 +56,7 @@ class Description extends StatelessWidget {
           ),
           InkWell(
             onTap: () async => !await launch(
-                'https://mail.google.com/mail/u/0/?fs=1&to=khalidlionel.2089@gmail.com&tf=cm'),
+                'https://mail.google.com/mail/u/0/#inbox'),
             child: Text("Let's chat",
                 style: GoogleFonts.getFont('Delius',
                     decoration: TextDecoration.underline,

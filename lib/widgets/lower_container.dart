@@ -50,23 +50,23 @@ class LowerContainer extends StatelessWidget {
                           width: width,
                           ratio: 0.35,
                         ),
-                        const SizedBox(height: 10),
-                        SkillCard(
-                          title: 'Backend Development',
-                          description:
-                              'I’m developing backend applications using codnuit and spring boot with a good knowledge in nodejs.',
-                          icon: ImageAssetConstants.backendIcon,
-                          width: width,
-                          ratio: 0.35,
-                        ),
-                        const SizedBox(height: 10),
-                        SkillCard(
-                            title: 'Python Development',
-                            description:
-                                'I’m developing maching learing and deep learning projects using standard python libraries and tensorflow api.',
-                            icon: ImageAssetConstants.python,
-                            width: width,
-                            ratio: 0.35),
+                        // const SizedBox(height: 10),
+                        // SkillCard(
+                        //   title: 'Backend Development',
+                        //   description:
+                        //       'I’m developing backend applications using codnuit and spring boot with a good knowledge in nodejs.',
+                        //   icon: ImageAssetConstants.backendIcon,
+                        //   width: width,
+                        //   ratio: 0.35,
+                        // ),
+                        // const SizedBox(height: 10),
+                        // SkillCard(
+                        //     title: 'Python Development',
+                        //     description:
+                        //         'I’m developing maching learing and deep learning projects using standard python libraries and tensorflow api.',
+                        //     icon: ImageAssetConstants.python,
+                        //     width: width,
+                        //     ratio: 0.35),
                       ],
                     ),
                     SizedBox(width: 0.05 * width),

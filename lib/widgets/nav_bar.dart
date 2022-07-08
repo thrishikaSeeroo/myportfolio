@@ -51,7 +51,7 @@ class NavBar extends StatelessWidget {
             NavBarItem(
                 text: 'Skills', onTap: () => scrollToWidgetByKey(skillsKey)),
             NavBarItem(
-              text: 'Intrests',
+              text: 'Interests',
               onTap: () => scrollToWidgetByKey(intrestsKey),
             ),
             const SizedBox(width: 60),
@@ -62,18 +62,18 @@ class NavBar extends StatelessWidget {
           NavBarItemWithIcon(
             text: 'github',
             icon: ImageAssetConstants.github,
-            url: 'https://github.com/khalid-alsaleh-dev',
+            url: 'https://github.com/thrishikaSeeroo',
           ),
           SizedBox(width: 10),
           NavBarItemWithIcon(
               text: 'facebook',
               icon: ImageAssetConstants.facebook,
-              url: 'https://www.facebook.com/khalid.alsaleh.52090/'),
+              url: 'https://www.facebook.com/'),
           SizedBox(width: 10),
           NavBarItemWithIcon(
               text: 'linkedIn',
               icon: ImageAssetConstants.linkedIn,
-              url: 'https://www.linkedin.com/in/khalid-al-saleh-3561881a8/'),
+              url: 'https://www.linkedin.com/in/thrishika-rai-508490171'),
           SizedBox(width: 50),
         ])
       ])
@@ -94,7 +94,7 @@ class NavBar extends StatelessWidget {
           }),
       const SizedBox(width: 10),
       NavBarItem(
-          text: 'Intrests',
+          text: 'Interests',
           onTap: () {
             scrollToWidgetByKey(intrestsKey);
             collapsableHeight.value = 0.0;
@@ -102,16 +102,16 @@ class NavBar extends StatelessWidget {
       NavBarItem(
           text: 'github',
           onTap: () async {
-            await launch('https://github.com/khalid-alsaleh-dev');
+            await launch('https://github.com/thrishikaSeeroo');
           }),
       NavBarItem(
           text: 'facebook',
           onTap: () async =>
-              await launch('https://www.facebook.com/khalid.alsaleh.52090/')),
+              await launch('https://www.facebook.com/')),
       NavBarItem(
           text: 'linkedIn',
           onTap: () async => await launch(
-              'https://www.linkedin.com/in/khalid-al-saleh-3561881a8/')),
+              'https://www.linkedin.com/in/thrishika-rai-508490171')),
     ];
     return Stack(
       children: [
