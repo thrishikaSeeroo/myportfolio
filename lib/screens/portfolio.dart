@@ -31,18 +31,18 @@ class _PortfolioState extends State<Portfolio> {
     showFloatingButton = false.obs;
 
     intrests = [
+      // {
+      //   'intrest': 'Beatbox',
+      //   'color': CustomColors.primary,
+      //   'textColor': CustomColors.darkBackground,
+      // },
+      // {
+      //   'intrest': 'Chess',
+      //   'color': CustomColors.brightBackground,
+      //   'textColor': CustomColors.primary,
+      // },
       {
-        'intrest': 'Beatbox',
-        'color': CustomColors.primary,
-        'textColor': CustomColors.darkBackground,
-      },
-      {
-        'intrest': 'Chess',
-        'color': CustomColors.brightBackground,
-        'textColor': CustomColors.primary,
-      },
-      {
-        'intrest': 'Soccer',
+        'intrest': 'Dancing',
         'color': CustomColors.primary,
         'textColor': CustomColors.darkBackground,
       },
@@ -62,7 +62,7 @@ class _PortfolioState extends State<Portfolio> {
         'textColor': CustomColors.darkBackground,
       },
       {
-        'intrest': 'Learning English',
+        'intrest': 'Learning Languages',
         'color': CustomColors.brightBackground,
         'textColor': CustomColors.primary,
       },
